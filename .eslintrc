@@ -11,19 +11,6 @@
         "prettier",
         "@typescript-eslint"
     ],
-    "rules": {
-        "react/jsx-filename-extension": [
-            1,
-            {
-                "extensions": [
-                    ".js",
-                    ".jsx",
-                    ".tsx",
-                    ".ts"
-                ]
-            }
-        ]
-    },
     "parserOptions": {
         "ecmaVersion": 2020,
         "project": "./tsconfig.json",
