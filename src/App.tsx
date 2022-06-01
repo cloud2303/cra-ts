@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +18,7 @@ function Home() {
         >
           Learn React
         </a>
+        <Link to="/about">前往/about</Link>
       </header>
     </div>
   );
