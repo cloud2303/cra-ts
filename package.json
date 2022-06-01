@@ -1,5 +1,5 @@
 {
-  "name": "cloud2303-cra-ts",
+  "name": "cra-template-cloud2303-cra-ts",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
