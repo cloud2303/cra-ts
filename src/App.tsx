@@ -1,7 +1,8 @@
+import { Route, Routes } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function Home() {
   return (
     <div className="App text-blue-500">
       <header className="App-header">
@@ -18,6 +19,20 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
+  );
+}
+function About() {
+  return <h1>aboutpage</h1>;
+}
+function App() {
+  return (
+    <div>
+      <h1>Welcome to React Router!</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Routes>
     </div>
   );
 }
