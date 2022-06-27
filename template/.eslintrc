@@ -29,5 +29,13 @@
         "build",
         "dist",
         "public"
-    ]
+    ],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ]
+    }
 }
